@@ -1,0 +1,15 @@
+[package]
+name = "file-guard-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+file-guard = "0.2"
+anyhow = "1"
+tokio = { version = "1", features = ["full"]}
+
+[[bin]]
+name = "cli"
+
+[[bin]]
+name = "gui"
